@@ -1,2 +1,2 @@
-# la_folio
-LA Wordpress Theme
+# LA Wordpress Theme
+www.larsattacks.co.uk
