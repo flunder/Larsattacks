@@ -4,23 +4,25 @@
 
         <div class="col-sm-6">
 
-            <h2>What I do</h2>
+            <h2>London Based Development</h2>
 
             <p>
-                I aim to write the most beautiful code possible. My HTML5 is validated and
-                search engine optimized, WordPress sites are easily updatable and everything
-                is beautifully responsive. Work is always delivered on-time or ahead of
-                schedule and it's my job to ensure you never have to deal with ugly old code
-                ever again.
+                Specializing in front-end development for over 8 years; Lars is a London based developer who also 
+                has also an understanding for design, UX/UI and SEO. He's been working on projects ranging from the London Olympics
+                to Sony or Channel4.
                 <br/><br/>
-                Sed Auctor Neque .
+                He strives to create websites that convey beauty and character as well a simplicity and functionality.
+                In recent projects he's gotten deeper into the worlds of Wordpress theme development, which has now become
+                the main weapon of choice.
+                <br/><br/>
+                Available for freelance work.
             </p>
 
         </div>
 
         <div class="col-sm-6">
             <figure>
-                <img />
+                <img src="<?php echo get_template_directory_uri() ?>/images/imac.jpg" />
                 <figcaption></figcaption>
             </figure>
         </div>

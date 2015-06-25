@@ -1,4 +1,4 @@
-<div class="services">
+<div class="services bg-light">
 
     <section class="container">
 
