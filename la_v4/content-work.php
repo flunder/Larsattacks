@@ -144,6 +144,127 @@
 
                     </li>
 
+                    <li class="col-sm-4">
+
+                        <figure>
+                            <img src="<?php echo get_template_directory_uri() ?>/images/projects/oneforten/1.jpg" />
+                            <figcaption></figcaption>
+                        </figure>
+
+                        <h3>One For Ten</h3>
+
+                        <p>
+                            A new Wordpress site to go with the production of the One For Ten documentory. A long term project, 
+                            I did the entire development and most of the design.
+                        </p>
+
+                        <div class="tags">
+                            <a href="#">frontend</a>
+                            <a href="#">responsive css</a>
+                        </div>
+
+                    </li>
+
+                    <li class="col-sm-4">
+
+                        <figure>
+                            <img src="<?php echo get_template_directory_uri() ?>/images/projects/underleaf/1.jpg" />
+                            <figcaption></figcaption>
+                        </figure>
+
+                        <h3>Underleaf Plants</h3>
+
+                        <p>
+                            A customizsation of a commercial wordpress theme and an animated SVG logo for the Underleaf business
+                        </p>
+
+                        <div class="tags">
+                            <a href="#">frontend</a>
+                            <a href="#">responsive css</a>
+                        </div>
+
+                    </li>
+
+                    <li class="col-sm-4">
+
+                        <figure>
+                            <img src="<?php echo get_template_directory_uri() ?>/images/projects/iriver/1.jpg" />
+                            <figcaption></figcaption>
+                        </figure>
+
+                        <h3>i-River</h3>
+
+                        <p>
+                            A freshly hand-crafted wordpress template for i-river. Design by @buffalo7studio
+                        </p>
+
+                        <div class="tags">
+                            <a href="#">frontend</a>
+                            <a href="#">responsive css</a>
+                        </div>
+
+                    </li>
+
+                    <li class="col-sm-4">
+
+                        <figure>
+                            <img src="<?php echo get_template_directory_uri() ?>/images/projects/smartbox/1.jpg" />
+                            <figcaption></figcaption>
+                        </figure>
+
+                        <h3>Smartbox Investments</h3>
+
+                        <p>
+                            A customizsation of a commercial wordpress theme.
+                        </p>
+
+                        <div class="tags">
+                            <a href="#">frontend</a>
+                            <a href="#">responsive css</a>
+                        </div>
+
+                    </li>
+
+                    <li class="col-sm-4">
+
+                        <figure>
+                            <img src="<?php echo get_template_directory_uri() ?>/images/projects/mulberry/1.jpg" />
+                            <figcaption></figcaption>
+                        </figure>
+
+                        <h3>Mulberry Giftfinder</h3>
+
+                        <p>
+                            Frontend HTML, CSS AND Javascript for Mulberry’s  giftfinder christmas web.
+                        </p>
+
+                        <div class="tags">
+                            <a href="#">frontend</a>
+                            <a href="#">responsive css</a>
+                        </div>
+
+                    </li>
+
+                    <li class="col-sm-4">
+
+                        <figure>
+                            <img src="<?php echo get_template_directory_uri() ?>/images/projects/tribes/1.jpg" />
+                            <figcaption></figcaption>
+                        </figure>
+
+                        <h3>Channel4 - UK Tribes</h3>
+
+                        <p>
+                            Wordpress theme and plugin development for the UK’s longest running and most respected youth research project 
+                        </p>
+
+                        <div class="tags">
+                            <a href="#">frontend</a>
+                            <a href="#">responsive css</a>
+                        </div>
+
+                    </li>
+
                 </ul>
 
             </div>

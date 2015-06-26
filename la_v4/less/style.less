@@ -18,10 +18,8 @@
 
 a { color: #fa4242; }
 
-ul {
-    li { list-style-type: none; }
-}
-
+ul { }
+ul li { list-style-type: none; }
 
 /*
   RESPONSIVE HELPERS
@@ -85,11 +83,15 @@ p  { font-weight: 300; font-size: 1.4rem; line-height: 2.1rem; }
 */
 
 header {
-    background: @color-primary;
     height: 666px;
+    padding: 60px 0px;
     overflow: hidden;
+    background: @color-primary;
 
     h1 {
+        padding: 0px;
+        margin: 0px;
+
         a {
             background: url('@{themeurl}/images/logo_la.jpg') no-repeat 0 0 transparent;
             background-size: 55.5px;
@@ -147,12 +149,12 @@ main {
     div.work {
         ul {
             li {
-                padding-right: 5px;  /* @media desktop */
+   
                 margin-bottom: 60px; /* @media desktop */
+                padding: 10px;       /* @media desktop */
 
-                &:nth-of-type(4) {
+                &:nth-of-type(3n + 4) {
                     clear: left;        /* @media desktop */
-                    padding-right: 0px; /* @media desktop */
                 }
             }
         }
