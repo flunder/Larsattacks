@@ -6,36 +6,30 @@
 
         <div class="col-sm-4">
 
-            <h3>Service</h3>
+            <h3 class="h4">Wordpress</h3>
 
             <p>
-                Ut in nulla enim. Phasellus molestie magna non est
-                bibendum non venenatis nisl tempor. Suspendisse dictum
-                feugiat nisl ut dapibus. Mauris.
+                High quality maintainable Wordpress Themes coded from scratch.
             </p>
 
         </div>
 
         <div class="col-sm-4">
 
-            <h3>Service</h3>
+            <h3 class="h4">Frontend Development</h3>
 
             <p>
-                Ut in nulla enim. Phasellus molestie magna non est
-                bibendum non venenatis nisl tempor. Suspendisse dictum
-                feugiat nisl ut dapibus. Mauris.
+                With over 8 years commercial front-end development ... 
             </p>
 
         </div>
 
         <div class="col-sm-4">
 
-            <h3>Service</h3>
+            <h3 class="h4">Allround</h3>
 
             <p>
-                Ut in nulla enim. Phasellus molestie magna non est
-                bibendum non venenatis nisl tempor. Suspendisse dictum
-                feugiat nisl ut dapibus. Mauris.
+                
             </p>
 
         </div>

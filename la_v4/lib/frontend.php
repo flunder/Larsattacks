@@ -89,3 +89,21 @@ function filter_image_sizes($sizes) {
     return $sizes;
 }
 add_filter('intermediate_image_sizes_advanced', 'filter_image_sizes');
+
+
+/*
+    Lists a posts categories as links
+*/
+function get_post_categories($post_id){
+
+    $post_categories = wp_get_post_categories($post_id);
+    $cats = "";
+
+    foreach($post_categories as $c){
+        $cat = get_category($c);
+        $cats .= "<a href='#'>".$cat->name."</a>";
+    }
+
+    return $cats;
+
+}

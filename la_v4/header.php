@@ -13,36 +13,33 @@
 
     <title><?php wp_title( '|', true, 'right' ); ?></title>
 
-    <!-- Meta -->
+    <!-- Meta: SEO -->
     <meta name="description" content="">
     <meta name="keywords" content="">
     <meta name="author" content="LarsAttacks">
     <meta name="google-site-verification" content="" />
 
-    <!-- iOS -->
+    <!-- Meta: iOS -->
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black">
     <meta name="apple-mobile-web-app-title" content="LarsAttacks">
 
-    <!-- Icons -->
-    <link rel="shortcut icon" href="http://<?php bloginfo('template_url'); ?>/icons/favicon.ico">                             <!-- Standard 32x32 --><!-- FAVICON -->
-    <link rel="apple-touch-icon-precomposed" href="<?php bloginfo('template_url'); ?>/icons/iOSicon-152.png" sizes="152x152"> <!-- iPad Retina iOS7 -->
-    <link rel="apple-touch-icon-precomposed" href="<?php bloginfo('template_url'); ?>/icons/iOSicon-144.png" sizes="144x144"> <!-- iPad Retina iOS6 -->
-    <link rel="apple-touch-icon-precomposed" href="<?php bloginfo('template_url'); ?>/icons/iOSicon-120.png" sizes="120x120"> <!-- iPhone Retina iOS7 -->
-    <link rel="apple-touch-icon-precomposed" href="<?php bloginfo('template_url'); ?>/icons/iOSicon-114.png" sizes="114x114"> <!-- iPhone Retina iOS6 -->
-    <link rel="apple-touch-icon-precomposed" href="<?php bloginfo('template_url'); ?>/icons/iOSicon-072.png" sizes="72x72">   <!-- 1+2 Gen iPad: -->
-    <link rel="apple-touch-icon-precomposed" href="<?php bloginfo('template_url'); ?>/icons/iOSicon-057.png">
+    <!-- Meta: Icons -->
+    <link rel="shortcut icon" href="http://<?php bloginfo('template_url'); ?>/icons/favicon.ico">
 
+    <!-- Wordpress Ajax Endpoint -->
     <script type="text/javascript">var ajaxurl = '<?php echo admin_url("admin-ajax.php"); ?>';</script>
 
+    <!-- Theme -->
     <?php la_wp_header(); ?>
+
 </head>
 
 <body>
 
     <header>
         <div class="container">
-            <h1>
+            <h1 class="marginless paddingless">
                 <a href="<?php echo home_url(); ?>"><?php bloginfo('name'); ?></a>
             </h1>
             <nav role="navigation">
