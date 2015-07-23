@@ -2,7 +2,7 @@
 
     <section class="container">
 
-        <div class="col-sm-6">
+        <div class="col-sm-6 paddingless-left">
 
             <h2>London Based Development</h2>
 
@@ -13,14 +13,14 @@
                 <br/><br/>
                 He strives to create websites that convey beauty and character as well a simplicity and functionality.
                 In recent projects he's gotten deeper into the worlds of Wordpress theme development, which has now become
-                the main weapon of choice.
+                the main weapon of choice. <a href="#">CV Download</a>
                 <br/><br/>
                 Available for freelance work.
             </p>
 
         </div>
 
-        <div class="col-sm-6">
+        <div class="col-sm-6 paddingless">
             <figure>
                 <img src="<?php echo get_template_directory_uri() ?>/images/imac.jpg" />
                 <figcaption></figcaption>

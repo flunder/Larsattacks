@@ -38,12 +38,25 @@
 <body>
 
     <header>
+
         <div class="container">
+
             <h1 class="marginless paddingless">
                 <a href="<?php echo home_url(); ?>"><?php bloginfo('name'); ?></a>
             </h1>
+
             <nav role="navigation">
                 <?php la_navigation(); ?>
             </nav>
+
+            <div>
+                <h2>Hello</h2>
+                <p>
+                    I’m Lars Bortfeldt, a web developer specializing in front-end coding based in London / Uk.
+                </p>
+                <a href="#work">View my work</a>
+            </div>
+
         </div>
+
     </header>

@@ -6,12 +6,13 @@
 
         <p>
             originally came to fruition to keep owners of stolen bikes in
-            the loop about bikes being shifted through Gumtree and Ebay.
+            the loop about bikes being sold through Gumtree and Ebay and the likes.
             Great idea, great purpose. But it serves a great double
-            application—it also serves as a nifty filter when you.
+            application—it also serves as a nifty filter when you are 
+            looking to browse through bicycles...
         </p>
 
-        <a href="#" class="font-bold">www.bikeshd.co.uk</a>
+        <a href="#" class="font-bold"><a href="http://www.bikeshd.co.uk" target="_blank">www.bikeshd.co.uk</a>
 
     </div>
 
@@ -25,7 +26,7 @@
 
 </li>
 
-<li class="module-ventures-li v-center la-gallery module-ventures-rightie">
+<!--<li class="module-ventures-li v-center la-gallery module-ventures-rightie">
 
     <div class="col-sm-8 module-ventures-gallery paddingless bg-dark v-centre-desktop-inner la-gallery-container-pagination">
         <figure class="cover bgless">
@@ -46,8 +47,8 @@
             application—it also serves as a nifty filter when you.
         </p>
 
-        <a href="#" class="font-bold">www.bikeshd.co.uk</a>
+        <p>Site has been shut</p>
 
     </div>
 
-</li>
+</li> -->

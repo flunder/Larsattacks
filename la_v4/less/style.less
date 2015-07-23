@@ -92,8 +92,13 @@ main {
 }
 
 section {
-    padding: 60px 0;
+    padding: 0px;
 }
+
+@media screen and (min-width: 768px) {
+    section { padding: 60px }
+}
+
 
 footer {
 
@@ -238,12 +243,14 @@ figure img { width: 100%; display: block; }
 
 .para-main { }
 .para-sub  { }
-.para-last { margin-bottom: 5.4rem; }
+.para-last { margin-bottom: 30px; }
 
 .borderless  { border: none; }
-.paddingless { padding: 0px; }
 .marginless  { margin: 0px; }
 .bgless      { background: transparent; }
+.paddingless       { padding: 0px; }
+.paddingless-left  { padding-left: 0px; }
+.paddingless-right { padding-right: 0px; }
 
 .disable-selection::selection      { background: transparent; }
 .disable-selection::-moz-selection { background: transparent; }
@@ -319,7 +326,7 @@ main {
                 position: relative;
 
                 margin-bottom: 60px; /* @media desktop */
-                padding: 10px;       /* @media desktop */
+
 
                 &:nth-of-type(3n + 4) {
                     clear: left;        /* @media desktop */
@@ -368,6 +375,13 @@ main {
 
         .tags {
 
+            &:before {
+                content: "LA task/tool:";
+                margin-right: 5px;
+                color: #DCDCDC;
+                font-weight: 300;
+            }
+
             a {
                 color: #fa4242;
                 margin-right: 5px;
@@ -381,6 +395,9 @@ main {
 }
 
 
+/*
+    Slider
+*/
 
 .module-ventures { }
 .module-ventures-item { margin-bottom: 30px; overflow: hidden; }
@@ -397,3 +414,5 @@ main {
 .la-gallery-pagi i { margin-right: 2px; }
 
 .disabled { opacity: 0.3; }
+
+

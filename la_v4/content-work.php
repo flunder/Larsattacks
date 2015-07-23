@@ -8,11 +8,8 @@
 
                 <h2>Recent Work</h2>
 
-                <p class="col-sm-10 paddingless">
-                    Some of my personal ventures created out of testing out ideas,
-                    trying to learn things or just for fun. Some Some of my personal
-                    ventures created out of testing out ideas, trying to learn things or
-                    just for fun.  my personal ventures created out
+                <p class="col-sm-10 paddingless para-last">
+                    Examples of my recent freelance work.
                 </p>
 
                 <div class='clearfix'></div>
