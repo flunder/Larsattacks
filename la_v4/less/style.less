@@ -228,16 +228,13 @@ header {
 strong { color: #000; }
 
 figure { display: block; padding: 0; margin: 0; }
-figure img { width: 100%; }
+figure img { width: 100%; display: block; }
 
 .bg-light { background: @color-lightness; }
 .bg-white { background: white; }
 .bg-dark  { background: #5a5353; }
 
 .hidden { display: none; }
-
-.v-center { display: table; }
-.v-centre-inner { display: table-cell; vertical-align: middle; float: none; }
 
 .para-main { }
 .para-sub  { }
@@ -272,6 +269,29 @@ figure img { width: 100%; }
 .cfix:after { clear: both; }
 .cfix { zoom: 1; }
 
+.v-centre { display: table; }
+.v-centre-inner { display: table-cell; vertical-align: middle; float: none; }
+
+@media screen and (min-width: 768px) {
+    .v-centre-desktop { display: table; }
+    .v-centre-desktop-inner { display: table-cell; vertical-align: middle; float: none; }
+}
+
+.cover img {
+    overflow: hidden;
+    top: 0;
+    height: 100%;
+    position: absolute;
+    object-fit: cover; /* contain; */
+}
+
+@media screen and (max-width: 768px) {
+    .cover {
+        height: 0;
+        padding-bottom: 50%;
+        position: relative;
+    }
+}
 
 /*
   ICONS
@@ -367,17 +387,13 @@ main {
 .module-ventures-info { padding: 30px; }
 .module-ventures-gallery {  }
 
-.la-gallery-nav-container { position: relative; }
-.la-gallery-pagi-container { position: relative; }
+.la-gallery-container { position: relative; }
 
-.la-gallery-nav-container-nav { position: absolute; bottom: 8px; right: 15px; }
-.la-gallery-nav-container-nav a { margin-right: 3px; }
-.la-gallery-nav-container-nav a:hover { opacity: 0.3; }
+.la-gallery-nav { position: absolute; bottom: 8px; right: 15px; }
+.la-gallery-nav a { margin-right: 3px; }
+.la-gallery-nav a:hover { opacity: 0.3; }
 
-.la-gallery-nav-container-pagi { position: absolute; bottom: 8px; right: 15px; }
-.la-gallery-nav-container-pagi i { margin-right: 2px; }
+.la-gallery-pagi { position: absolute; bottom: 8px; right: 15px; }
+.la-gallery-pagi i { margin-right: 2px; }
 
 .disabled { opacity: 0.3; }
-
-.module-ventures-rightie .la-gallery-nav-container-pagi { left: 15px; }
-
