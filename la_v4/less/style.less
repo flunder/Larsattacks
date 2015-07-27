@@ -181,8 +181,9 @@ p { margin-bottom: 1.3rem;}
 
 @color-primary: #f6464e;
 
-@color-lightness: #f5f5f5;
-@color-darkness: #5a5353;
+@grey-light:  #f5f5f5;
+@grey-medium: #DCDCDC;
+@grey-dark:   #5a5353;
 
 @color-copy: #969595;        /* Dark Grey, was #666 */
 
@@ -191,7 +192,10 @@ header { background: @color-primary; }
 a      { color: @color-primary; }
 p      { color: @color-copy; }
 
-.white { color: white; }
+.white      { color: white; }
+.grey-light { color: @grey-light; }
+.grey       { color: @grey-medium; }
+.grey-dark  { color: @grey-dark; }
 
 /* User Interface: Icons ----------------------------------------------------------------- */
 
@@ -254,7 +258,7 @@ strong { color: #000; }
 figure { display: block; padding: 0; margin: 0; }
 figure img { width: 100%; display: block; }
 
-.bg-light { background: @color-lightness; }
+.bg-light { background: @grey-light; }
 .bg-white { background: white; }
 .bg-dark  { background: #5a5353; }
 .bg-black { background: black; }
@@ -274,8 +278,8 @@ figure img { width: 100%; display: block; }
 
 .rounded { border-radius: 3px; }
 
-.disable-selection::selection      { background: transparent; }
-.disable-selection::-moz-selection { background: transparent; }
+.disable-selection::selection              { background: transparent; }
+.disable-selection::-moz-selection         { background: transparent; }
 
 .third-height  { height: 0; padding-bottom: 33%; overflow: hidden; }
 .half-height   { height: 0; padding-bottom: 50%; overflow: hidden; }
@@ -400,7 +404,7 @@ main {
             &:before {
                 content: "LA task:";
                 margin-right: 5px;
-                color: #DCDCDC;
+                color: @grey-medium;
                 font-weight: 300;
             }
 

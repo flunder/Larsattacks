@@ -36,7 +36,7 @@ jQuery(function($){
                 UI
             */
             $galleryNav.append('<nav class="la-gallery-nav">' + prev_btn + next_btn + '</nav>');
-            $galleryPagi.append('<div class="la-gallery-nav">' + paginate($galleryImages.length, page) + '</div>');
+            $galleryPagi.append('<div class="la-gallery-nav">' + repeat($galleryImages.length, page) + '</div>');
 
             /*
                 Init
@@ -98,7 +98,8 @@ jQuery(function($){
         /*
             Repeats some string by the amount
         */
-        function paginate(amount, content){
+
+        function repeat(amount, content){
             var pages = "";
             for (var i = 0; i < amount; i++) pages += content;
             return pages;
