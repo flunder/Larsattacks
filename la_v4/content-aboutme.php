@@ -7,13 +7,13 @@
             <h2>London Based Development</h2>
 
             <p>
-                Specializing in front-end development for over 8 years; Lars is a London based developer who also 
+                Specializing in front-end development for over 8 years; Lars is a London based developer who also
                 has also an understanding for design, UX/UI and SEO. He's been working on projects ranging from the London Olympics
                 to Sony or Channel4.
                 <br/><br/>
                 He strives to create websites that convey beauty and character as well a simplicity and functionality.
                 In recent projects he's gotten deeper into the worlds of Wordpress theme development, which has now become
-                the main weapon of choice. <a href="#">CV Download</a>
+                the main weapon of choice. <a href="https://www.dropbox.com/s/m6nlvg7slc2ph6c/cv-lars%20b-2-8.pdf?dl=0">CV Download</a>
                 <br/><br/>
                 Available for freelance work.
             </p>

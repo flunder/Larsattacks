@@ -49,12 +49,19 @@
                 <?php la_navigation(); ?>
             </nav>
 
-            <div>
-                <h2>Hello</h2>
-                <p>
-                    I’m Lars Bortfeldt, a web developer specializing in front-end coding based in London / Uk.
+            <div class="welcome col-sm-8 paddingless">
+
+                <h2 class="h1 white welcome-hl">
+                    Hello
+                </h2>
+
+                <p class="h6 white welcome-p">
+                    I’m Lars Bortfeldt, a developer specializing in front-end coding based in London / Uk.
                 </p>
-                <a href="#work">View my work</a>
+
+                <a href="#work" class="welcome-a btn bg-black rounded white">
+                    View my work
+                </a>
             </div>
 
         </div>
