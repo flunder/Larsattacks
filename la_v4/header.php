@@ -31,7 +31,11 @@
     <script type="text/javascript">var ajaxurl = '<?php echo admin_url("admin-ajax.php"); ?>';</script>
 
     <!-- Theme -->
+    
+    <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+    
     <?php la_wp_header(); ?>
+    
 
 </head>
 
