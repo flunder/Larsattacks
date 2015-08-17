@@ -107,10 +107,19 @@ jQuery(function($){
 
     }
 
+    LAX.isIE = function(){
+
+        if (navigator.userAgent.indexOf('MSIE') !== -1 || navigator.appVersion.indexOf('Trident/') > 0) {
+            $('html').addClass('is-ie');
+        }
+
+    }
+
     /* Hit'n Run
     ---------------------------------------------------------------------------------------------------- */
     $(function() {
         LAX.gallery();
+        LAX.isIE();
     });
 
 })
