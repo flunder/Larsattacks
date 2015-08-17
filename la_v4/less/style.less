@@ -116,38 +116,38 @@ footer {
 
 /* --------- "Montserrat" --------- */
 
-// @font-face {
-//     font-family: 'Montserrat';
-//     src: url('@{themeurl}/fonts/Montserrat/Montserrat-UltraLight.eot.eot');
-//     src: url('@{themeurl}/fonts/Montserrat/Montserrat-UltraLight.eot?#iefix') format('embedded-opentype'),
-//          url('@{themeurl}/fonts/Montserrat/Montserrat-UltraLight.woff') format('woff'),
-//          url('@{themeurl}/fonts/Montserrat/Montserrat-UltraLight.ttf') format('truetype'),
-//          url('@{themeurl}/fonts/Montserrat/Montserrat-UltraLight.svg#565d3dca80d751a268e2c36476c681bd') format('svg');
-//     font-style: normal;
-//     font-weight: 100;
-// }
-//
-// @font-face {
-//     font-family: 'Montserrat';
-//     src: url('@{themeurl}/fonts/Montserrat/Montserrat-Light.eot.eot');
-//     src: url('@{themeurl}/fonts/Montserrat/Montserrat-Light.eot?#iefix') format('embedded-opentype'),
-//          url('@{themeurl}/fonts/Montserrat/Montserrat-Light.woff') format('woff'),
-//          url('@{themeurl}/fonts/Montserrat/Montserrat-Light.ttf') format('truetype'),
-//          url('@{themeurl}/fonts/Montserrat/Montserrat-Light.svg#565d3dca80d751a268e2c36476c681bd') format('svg');
-//     font-style: normal;
-//     font-weight: 200;
-// }
-//
-// @font-face {
-//     font-family: 'Montserrat';
-//     src: url('@{themeurl}/fonts/Montserrat/Montserrat-Regular.eot.eot');
-//     src: url('@{themeurl}/fonts/Montserrat/Montserrat-Regular.eot?#iefix') format('embedded-opentype'),
-//          url('@{themeurl}/fonts/Montserrat/Montserrat-Regular.woff') format('woff'),
-//          url('@{themeurl}/fonts/Montserrat/Montserrat-Regular.ttf') format('truetype'),
-//          url('@{themeurl}/fonts/Montserrat/Montserrat-Regular.svg#565d3dca80d751a268e2c36476c681bd') format('svg');
-//     font-style: normal;
-//     font-weight: 400;
-// }
+@font-face {
+    font-family: 'Montserrat';
+    src: url('@{themeurl}/fonts/Montserrat/Montserrat-UltraLight.eot.eot');
+    src: url('@{themeurl}/fonts/Montserrat/Montserrat-UltraLight.eot?#iefix') format('embedded-opentype'),
+         url('@{themeurl}/fonts/Montserrat/Montserrat-UltraLight.woff') format('woff'),
+         url('@{themeurl}/fonts/Montserrat/Montserrat-UltraLight.ttf') format('truetype'),
+         url('@{themeurl}/fonts/Montserrat/Montserrat-UltraLight.svg#565d3dca80d751a268e2c36476c681bd') format('svg');
+    font-style: normal;
+    font-weight: 100;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('@{themeurl}/fonts/Montserrat/Montserrat-Light.eot.eot');
+    src: url('@{themeurl}/fonts/Montserrat/Montserrat-Light.eot?#iefix') format('embedded-opentype'),
+         url('@{themeurl}/fonts/Montserrat/Montserrat-Light.woff') format('woff'),
+         url('@{themeurl}/fonts/Montserrat/Montserrat-Light.ttf') format('truetype'),
+         url('@{themeurl}/fonts/Montserrat/Montserrat-Light.svg#565d3dca80d751a268e2c36476c681bd') format('svg');
+    font-style: normal;
+    font-weight: 200;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('@{themeurl}/fonts/Montserrat/Montserrat-Regular.eot.eot');
+    src: url('@{themeurl}/fonts/Montserrat/Montserrat-Regular.eot?#iefix') format('embedded-opentype'),
+         url('@{themeurl}/fonts/Montserrat/Montserrat-Regular.woff') format('woff'),
+         url('@{themeurl}/fonts/Montserrat/Montserrat-Regular.ttf') format('truetype'),
+         url('@{themeurl}/fonts/Montserrat/Montserrat-Regular.svg#565d3dca80d751a268e2c36476c681bd') format('svg');
+    font-style: normal;
+    font-weight: 400;
+}
 
 body {
     font-size: 1.2rem;  /* Base font 12pt */
@@ -176,6 +176,10 @@ p { margin-bottom: 1.3rem;}
 .normalize-case  { text-transform: initial; }
 .uppercase-case  { text-transform: uppercase; }
 .normalize-style { font-style: normal; }
+
+/* ie-fix */
+
+html.is-ie { font-size: 66%; }
 
 /* COLOUR ---------------------------------------------------------------------------- */
 
@@ -370,7 +374,7 @@ main {
                 top: 0px;
                 left: 0px;
                 width: 100%;
-                height: calc(100% + 5px);
+                height: 100%;
                 background-color: #F5F5F5;
                 text-align: center;
 

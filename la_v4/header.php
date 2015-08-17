@@ -1,8 +1,8 @@
 <!DOCTYPE HTML>
-<!--[if lt IE 7]><html class="no-js lt-ie9 lt-ie8 lt-ie7"><![endif]-->
-<!--[if IE 7]><html class="no-js lt-ie9 lt-ie8"><![endif]-->
-<!--[if IE 8]><html class="no-js lt-ie9"><![endif]-->
-<!--[if gt IE 8]><html lang="en-GB" class="no-js"><![endif]-->
+<!--[if lt IE 7]><html class="no-js is-ie lt-ie9 lt-ie8 lt-ie7"><![endif]-->
+<!--[if IE 7]>   <html class="no-js is-ie lt-ie9 lt-ie8">       <![endif]-->
+<!--[if IE 8]>   <html class="no-js is-ie lt-ie9">              <![endif]-->
+<!--[if gt IE 8]><html lang="en-GB" class="is-ie">              <![endif]-->
 <html>
 
 <head>
@@ -19,23 +19,17 @@
     <meta name="author" content="LarsAttacks">
     <meta name="google-site-verification" content="" />
 
-    <!-- Meta: iOS -->
-    <meta name="apple-mobile-web-app-capable" content="yes">
-    <meta name="apple-mobile-web-app-status-bar-style" content="black">
-    <meta name="apple-mobile-web-app-title" content="LarsAttacks">
-
     <!-- Meta: Icons -->
     <link rel="shortcut icon" href="http://<?php bloginfo('template_url'); ?>/icons/favicon.ico">
 
     <!-- Wordpress Ajax Endpoint -->
     <script type="text/javascript">var ajaxurl = '<?php echo admin_url("admin-ajax.php"); ?>';</script>
 
+    <!-- <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'> -->
+
     <!-- Theme -->
-    
-    <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
-    
     <?php la_wp_header(); ?>
-    
+
 
 </head>
 
