@@ -40,7 +40,9 @@
         <div class="container">
 
             <h1 class="marginless paddingless">
-                <a href="<?php echo home_url(); ?>"><?php bloginfo('name'); ?></a>
+                <a href="<?php echo home_url(); ?>" class="la-logo">
+                    <?php bloginfo('name'); ?>
+                </a>
             </h1>
 
             <nav role="navigation">
