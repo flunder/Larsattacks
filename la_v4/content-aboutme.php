@@ -13,10 +13,10 @@
                 <br/><br/>
                 He strives to create websites that convey beauty and character as well a simplicity and functionality.
                 In recent projects he's gotten deeper into the worlds of Wordpress theme development, which has now become
-                the main weapon of choice. <a href="https://www.dropbox.com/s/m6nlvg7slc2ph6c/cv-lars%20b-2-8.pdf?dl=0">CV Download</a>
+                the main weapon of choice. <a href="https://dl.dropboxusercontent.com/u/5602759/cv-lars.pdf">CV Download</a>
                 <br/><br/>
-                Available for freelance work.
-            </p>
+                Contact me via <a href="mailto:warning@larsattacks.co.uk">warning@larsattacks.co.uk</a><br/><br/>
+                Available for freelance work. <br/>
 
         </div>
 
